@@ -1,9 +1,14 @@
 USE codeup_test_db;
-Create Table: CREATE TABLE `albums` (
-    'ID' int(10) unsigned NOT NULL AUTO_INCREMENT,
-    'ARTIST' varchar(50) DEFAULT NULL,
-    'NAME' varchar(100) NOT NULL,
-    'RELEASE_DATE' int(10),
-    'SALES' float(20),
-    'GENRE'varchar(50) NOT NULL,
-    PRIMARY KEY ('ID')
+
+DROP TABLE IF EXISTS `albums`;
+
+CREATE TABLE albums
+(
+    ID           int unsigned NOT NULL AUTO_INCREMENT,
+    ARTIST       varchar(128) NOT NULL,
+    NAME         varchar(128)NOT NULL,
+    RELEASE_DATE int,
+    SALES        decimal(9,5),
+    GENRE        varchar(50),
+    PRIMARY KEY (ID)
+);
