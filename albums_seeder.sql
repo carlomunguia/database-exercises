@@ -1,10 +1,20 @@
 USE codeup_test_db;
 
-INSERT INTO albums (artist,name,year,genre,sales)
-VALUES ('Grease', 'Grease Soundtrack', 1978, 'Rock & Roll', 14.4),
+INSERT INTO albums (artist, name, year, genre, sales)
+VALUES ('Michael Jackson', 'Thriller', 1982, 'Pop', 47.3),
+       ('Eagles', 'Their Greatest Hits', 1976, 'Country Rock', 41.2),
+       ('AC/DC', 'Back in Black', 1980, 'Hard Rock', 26.1),
+       ('Pink Floyd', 'The Dark Side of the Moon', 1973, 'Progressive Rock', 24.2),
+       ('Whitney Houston', 'The Bodyguard', 1992, 'R&B', 28.4),
+       ('Meatloaf', 'Bat Out of Hell', 1977, 'Hard Rock', 21.5),
+       ('Eagles', 'Hotel California', 1976, 'Soft Rock', 31.5),
+       ('Bee Gees', 'Saturday Night Fever', 1977, 'Disco', 21.6),
+       ('Fleetwood Mac', 'Rumours', 1977, 'Soft Rock', 21.6),
+       ('Shania Twain', 'Come On Over', 1997, 'Country Pop', 14.4),
+       ('Grease', 'Grease Soundtrack', 1978, 'Rock & Roll', 14.4),
        ('Led Zeppelin', 'Led Zeppelin IV', 1971, 'Hard Rock', 29.0),
        ('Michael Jackson', 'Bad', 1987, 'Pop', 19.3),
-       ('Alanis Morissette', 'Jagged Little Pill', 1995, 'Alt Rock', 19.3),
+       ('Alanis Morrissette', 'Jagged Little Pill', 1995, 'Alt Rock', 19.3),
        ('Celine Dion', 'Falling Into You', 1996, 'Pop', 20.2),
        ('The Beatles', 'Sgt.Peppers Lonely Hearts Club Band', 1967, 'Rock', 18.2),
        ('Various Artists', 'Dirty Dancing', 1987, 'Pop', 17.9),
