@@ -11,3 +11,9 @@ CREATE TABLE albums (
     SALES  decimal(9, 5),
     PRIMARY KEY (ID));
 
+ALTER TABLE albums
+and UNIQUE (artist, name);
+
+SELECT 'Albums table created' AS 'log';
+
+
